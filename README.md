@@ -22,7 +22,7 @@ Developed a vectorized Boolean indexing algorithm in Python (Pandas) to simulate
 * Established Upper/Lower Control Limits (UCL/LCL) at **$\mu \pm 3\sigma$**.
 * Visualized multi-sensor trends via **Matplotlib**, clearly demarcating the control boundaries and highlighting historical outliers for equipment engineers.
 
-## 📊 Results & Critical Insights
+##  Results & Critical Insights
 
 A rigorous intersection analysis was performed to evaluate the effectiveness of the 3-Sigma defense line against the actual 104 historical failures:
 
@@ -30,10 +30,10 @@ A rigorous intersection analysis was performed to evaluate the effectiveness of 
 * **True Positives (Hit Count):** 19 actual failed wafers were successfully intercepted.
 * **Recall Rate:** **18.27%**
 
-### 💡 Engineering Conclusion
+###  Engineering Conclusion
 The 18.27% recall rate objectively proves a fundamental limitation of traditional manufacturing: **Univariate 3-Sigma SPC limits are insufficient for intercepting high-dimensional equipment faults.** While SPC successfully blocks extreme linear deviations (catching 19 critical fails), the remaining missed failures (False Negatives) and high False Positive rate underscore the necessity of transitioning from traditional SPC to non-linear Machine Learning classifiers (e.g., SVM, Random Forest) for next-generation yield prediction.
 
-## 💻 Tech Stack
+##  Tech Stack
 * **Language:** Python 3
 * **Libraries:** Pandas (Vectorized Data Processing), Matplotlib (Visualization), NumPy
 
