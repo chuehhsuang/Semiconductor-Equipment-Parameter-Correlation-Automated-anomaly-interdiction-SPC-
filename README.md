@@ -1,9 +1,9 @@
 # Semiconductor-Equipment-Parameter-Correlation-Automated-anomaly-interdiction-SPC-
 
-## 📌 Project Overview
+##  Project Overview
 This project simulates a real-world semiconductor equipment data analysis workflow. By processing the high-dimensional **SECOM dataset (1567 examples, 590 sensor features)**, this repository establishes a systematic troubleshooting framework to isolate root causes of yield failures and implement automated anomaly interdiction using Statistical Process Control (SPC).
 
-## 🛠 Methodology & Data Engineering
+##  Methodology & Data Engineering
 
 ### 1. High-Dimensional Data Cleaning
 Industrial sensor data is notoriously noisy. The initial processing pipeline includes:
